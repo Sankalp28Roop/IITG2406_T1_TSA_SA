@@ -1,0 +1,24 @@
+1. Introduction to the TSP Problem.
+Begin by defining the traveling salesman problem (TSP):
+The TSP is a fundamental optimization dilemma in which the goal is to identify the most cost-effective way to visit a series of cities, each exactly once, before returning to the starting point.
+The expense of traveling between cities is represented by distances that are symmetric.
+
+2. Complexity and Relevance
+Explain why the TSP is significant:
+TSP is NP-hard, which means that finding the best solution becomes more difficult as the number of cities increases.
+Because of its practical uses, it is valuable in industries such as logistics, circuit design, and route planning.
+
+3. Simulated Annealing (SA) Overview
+Describe the simulated annealing method:
+SA is a stochastic strategy used to approach a function's global optimum. It was modeled after the annealing process in metallurgy, in which materials are heated and cooled to remove flaws.
+The algorithm begins with a random solution and iteratively improves it by exploring associated with solutions (swaps between two cities) while accepting less perfect choices at a decreasing probability (controlled by a temperature parameter).
+
+4. Technical Details and C++ Features
+Describe your use of C++:
+STL (Standard Template Library): Used to create data structures such as std::vector.
+Algorithms: To randomly allocate the initial crash, we used std::shuffle.
+File I/O: I used ifstream to read city data from a file.
+Mathematical Functions: <cmath> is used to figure out distances according to Euclidean geometry.
+
+5. Everything was done in my project but in the end 
+When I was finding the output in the terminal of VSCode, the terminal (bottom) bar was showing again & again it was showing segmentation fault and then i was took the help of stack overflow in the project to solve the problem .
